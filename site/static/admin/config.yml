@@ -2,13 +2,13 @@ backend:
   name: git-gateway
   branch: wieting 
 
-media_folder: 'static/img'
+media_folder: 'site/static/img'
 public_folder: 'img'
 
 collections:
   - name: 'show'
     label: 'Show'
-    folder: 'content/show'
+    folder: 'site/content/show'
     create: true
     slug: '{{slug}}'
     editor:
