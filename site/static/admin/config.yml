@@ -4,13 +4,13 @@ backend:
   # branch: main 
   # base_url: https://netlify-cms-github-oauth-8d7vc.ondigitalocean.app
 
-media_folder: 'site/static/img'
+media_folder: 'static/img'
 public_folder: 'img'
 
 collections:
   - name: 'show'
     label: 'Show'
-    folder: 'site/content/show'
+    folder: 'content/show'
     create: true
     slug: '{{slug}}'
     editor:
