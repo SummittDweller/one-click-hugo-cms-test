@@ -1,8 +1,6 @@
 backend:
   name: git-gateway
-  # repo: SummittDweller/wieting-theatre
-  # branch: main 
-  # base_url: https://netlify-cms-github-oauth-8d7vc.ondigitalocean.app
+  branch: wieting 
 
 media_folder: 'static/img'
 public_folder: 'img'
